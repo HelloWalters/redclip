@@ -1,0 +1,35 @@
+version: '3'
+services:
+  vue-client:
+    container_name: rc-client-container
+    build: ./client
+    command: bash -c "npm install && npm run serve"
+    volumes:
+      - /app/node_modules
+      - ./client:/app
+    ports:
+      - "8080:8080"
+
+  node-server:
+    container_name: rc-sever-container
+    build: ./server
+    command: bash -c "npm install && npm run serve"
+    volumes:
+      - /app/node_modules
+      - ./server:/app
+    environment:
+      - DB_URL=mongodb://mongo:27017/redclip-db
+    ports:
+      - "9000:9000"
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    container_name: rc-db-container
+    environment:
+      MONGO_INITDB_DATABASE: redclip-db
+    volumes:
+      - ./tmp/data:/data/db
+    ports:
+      - "27017:27017" 

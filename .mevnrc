@@ -1,0 +1,8 @@
+{
+  "name": "redclip",
+  "template": "Default",
+  "isConfigured": {
+    "client": true,
+    "server": true
+  }
+}

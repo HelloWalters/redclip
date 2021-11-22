@@ -1,0 +1,297 @@
+*{
+    color:rgb(255, 254, 249);
+}
+.custom-bg-dark{
+    background-color: #373f46 !important; 
+    box-shadow: 5px 5px 5px -5px #1a1d20;
+}
+nav.navbar{
+    height:6rem;
+    text-transform:lowercase;
+}
+div#app-container{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    top: 0px;
+    width:100%;
+    padding:2rem;
+    padding-top: 100px !important;
+    background-image: radial-gradient(circle at center, #373F46,#525b63);
+    background-size: 7500px 7500px;
+    overflow:auto;
+    padding-bottom: 250px;
+    animation: backgroundAnimation 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes backgroundAnimation {
+    0%{
+        background-position: 0% 0%;
+    }
+    25%{
+        background-position: 100% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    70%{
+        background-position: 0% 100%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
+}
+@media screen and (max-width:767px) {
+    div#navbarCollapse{
+        width:100%;
+        position:fixed;
+        top:5.5rem;
+        left:0;
+        padding-left:20px;
+        padding-bottom:5px;
+        background-color:#373F46;
+    }
+    .nav-item:hover{
+        background-color:#474f57;
+    }
+}
+footer#custom-footer{
+    height: 2rem;
+    background-color:#373F46;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px -5px 5px -5px #1a1d20;
+}
+span.margin-right{
+    margin-right:4rem;
+}
+div.main-item, .card {
+	background-color: #373F46 !important;
+	max-width: 1500px;
+	width: 80%;
+}
+.card-header{
+    background-image: radial-gradient(circle at top left,#4D5964,#6E767D);
+}
+.card{
+    border-radius: 0;
+    border: none !important;
+}
+.card-body{
+    padding-left: 50px;
+    min-height: 175px;
+}
+.only-card{
+    margin:50px;
+    padding:25px 75px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width:1200px;
+    background-color:#373F46 !important;
+}
+.main-container-home{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-gradient{
+    background-image:linear-gradient(130deg,#067845,#78b397);
+    border-color: #78b397;
+}
+.btn-gradient:hover{
+    border-color: #067845;
+}
+.new-post{
+    max-width:600px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px -5px #1a1d20;
+    border-radius:6px;
+}
+.form-select option{ color:black !important;}
+.new-post-overlay {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: 2500;
+	padding-top: 150px;
+	background-color: #2c2e31de !important;
+}
+.new-post-link{
+    cursor: pointer;
+}
+.exit-np-window {
+	float: right;
+	position: relative;
+	top: -4rem;
+	right: -40px;
+	border-radius: 500px;
+	background-color: #373f46;
+	box-shadow: 5px 5px 5px -5px #1a1d20;
+    padding: 5px;
+    cursor: pointer;
+    transition-duration: .1s;
+}
+.exit-np-window:hover{
+    	background-color: #50565c;
+        box-shadow: 8px 8px 5px -5px #1a1d20;
+}
+.exit-np-window:active{
+    	background-color: #252b30;
+        box-shadow: 3px 3px 3px -3px #1a1d20;
+}
+input:disabled{
+    opacity: .5 !important;
+}
+.title-text{transition-duration: .25s;}
+.warning-text{
+    color:#ff8865;
+}
+.un-warning-text{
+    color:#ff886500;
+}
+.invalidUrl{color:#ff8865 !important;background-color:#ffccbd !important;}
+.upvote-container{
+    float:right;
+    width:42px;
+    text-align: right;
+}
+.upvote-icon {
+	float: left;
+	height: 18px;
+	margin-top: -1.5px;
+    cursor: pointer;
+}
+.circle{
+    border-radius: 10px;
+    transition-duration: .25s;
+}
+.circle-unupvoted{
+    box-shadow: 0px 0px 5px 0px #fff0,inset 0px 0px 5px 0px #fff0;
+}
+.circle-upvoted{
+    box-shadow: 0px 0px 5px 0px #fff,inset 0px 0px 5px 0px #fff;
+}
+.posts-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card-date {
+	width: fit-content;
+	float: right;
+	opacity: .35;
+	font-style: italic;
+    padding-right: 20px;
+}
+.post-comments {
+	float: right;
+	width: 25%;
+	min-width: min-content;
+}
+.iframe-container{
+    width:max-content;
+    height:max-content;
+}.textAlignCenter{
+    text-align: center;
+    height:250px;
+}
+.iframe-body{
+    min-height:375px;
+}
+.iframe-item{
+    height:350px;
+    width:500px;
+    max-width:80%;
+    max-height:fit-content;
+}
+.comment-card{ 
+    margin-top: 5px;
+    padding:35px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    box-shadow: none;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.comment-card .new-comment-span{
+    padding:20px;
+    border-radius: 5px;
+    background-color: #454e5599;
+    border: 2px solid #4a759600;
+    box-shadow: 2px 2px 5px -2px #1a1d20;
+    width:200px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    transition-duration: .1s;
+    width: 90%;
+}
+.comment-card .new-comment-span:hover{
+    background-color:#454e55;
+    box-shadow:0px 0px 0px 0px #1a1d20;
+}
+.comment-card .new-comment-span:active{
+    background-color:#4a7596;
+}
+.comment-card .new-comment-span p {margin:0 !important;padding:0 !important;pointer-events: none;user-select: none; }
+.comment-card .new-comment-span p img{
+    margin: 0px 5px;
+}
+.new-comment-form{
+    text-align: center;
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.new-comment-form textarea{
+	color: rgb(37, 37, 37) !important;
+	width: calc(100% - 114px);
+    height:29px;
+	float: left;
+}
+.new-comment-controls{
+    width: 114px;
+    float: right;
+}
+.new-comment-controls .submit-comment{
+    float:left;
+}
+.new-comment-controls .cancel-comment{
+    float:right;
+}.comment-box {
+	margin-top: 15px;
+	padding: 10px 5px 5px 25px;
+	border-top: solid 3px #fff6;
+}.mw-50{
+    max-width: 50% !important;
+}
+.comment-flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+.comment-to-block{
+}
