@@ -1,18 +1,17 @@
 *Andrew Walters - 2021*
 
-#Hello there!
+# Redclip&trade;
 
 
-
-Installation
-Prerequisites
+## Installation
+### Prerequisites
 
 - **npm** is a package manager for the JavaScript programming language.
 - **node.js** is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.
 - **git** is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development.
 - **docker**
 
-Quickstart
+### Quickstart
 [MEVN-CLI](https://github.com/madlabsinc/mevn-cli)
 
 Using node package manager, intall the MEVN command line interface package tool, created by MadLabs Inc.
@@ -20,7 +19,7 @@ Using node package manager, intall the MEVN command line interface package tool,
 `npm install -g mevn-cli`
 
 
-navigate to the directory containing the project root
+navigate to the directory containing the project root using a bash commands and run the command
 
 `mevn dockerize`
 
@@ -35,8 +34,18 @@ The project will also require an internet connection to link the image and video
 
 The project also already holds some data volumes for the Mongo database within the repository from testing, to demonstrate the loading and saving functionality of the application.
 
-----------------------------------------------------------------
+---
 
-###I hope you enjoy the application, and for anything further please get in touch with me at [andrew@hellowalters.com](mailto:andrew@hellowalters.com)!
+### *Further thoughts:*
+
+*I have built application to the best of my abilities with the time given and spent most of my time configuring the backend server-side configuration, route handling and CRUD operations. I have not yet managed to implement a subcommenting option, as my time ran short with other responsibilities as well as problem-solving within the app.*
+
+*I would have also liked to use VueX alongside webtokens to validate further against users, to ensure posts and comments cannot be liked by the poster, but as is, the application functions fully and correctly, loading posts and their respective comments on the webpage.*
+
+*These are features I will certainly add in the future when I have the time to revisit this project as a portfolio piece.*
+
+---
+
+### I hope you enjoy the application, and for anything further please get in touch with me at [andrew@hellowalters.com](mailto:andrew@hellowalters.com)!
 
 *Regards!*
