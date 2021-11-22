@@ -35,7 +35,13 @@ The project will also require an internet connection to link the image and video
 
 The project also already holds some data volumes for the Mongo database within the repository from testing, to demonstrate the loading and saving functionality of the application.
 
-----------------------------------------------------------------
+---
+
+*Further thoughts:*
+*I have built application to the best of my abilities with the time given and spent most of my time configuring the backend server-side configuration, route handling and CRUD operations. I have not yet managed to implement a subcommenting option, as my time ran short with other responsibilities as well as problem-solving within the app.*
+*I would have also liked to use VueX alongside webtokens to validate further against users, to ensure posts and comments cannot be liked by the poster. This will be something I add in the future when I have the time to revisit this project for my portfolio.*
+
+---
 
 ### I hope you enjoy the application, and for anything further please get in touch with me at [andrew@hellowalters.com](mailto:andrew@hellowalters.com)!
 
