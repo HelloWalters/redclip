@@ -33,7 +33,7 @@
         :class="[this.post.type != 1 ? 'textAlignCenter' : '']"
         class="left-body"
       >
-        <p v-if="this.post.type == 1" class="card-text">
+        <p v-show="showCommentSection" v-if="this.post.type == 1" class="card-text">
           {{ post.contents }}
         </p>
         <iframe
@@ -119,8 +119,8 @@ export default {
         text: "",
       },
       showCommentSection: false,
-      commentButtonText: "Show Comments",
-      nonCommentButtonText: "Hide Comments",
+      commentButtonText: "Show Post",
+      nonCommentButtonText: "Hide Post",
       dataFilteredComments: [],
     };
   },
