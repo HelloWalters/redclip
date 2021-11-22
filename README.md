@@ -39,7 +39,10 @@ The project also already holds some data volumes for the Mongo database within t
 
 *Further thoughts:*
 *I have built application to the best of my abilities with the time given and spent most of my time configuring the backend server-side configuration, route handling and CRUD operations. I have not yet managed to implement a subcommenting option, as my time ran short with other responsibilities as well as problem-solving within the app.*
-*I would have also liked to use VueX alongside webtokens to validate further against users, to ensure posts and comments cannot be liked by the poster. This will be something I add in the future when I have the time to revisit this project for my portfolio.*
+
+*I would have also liked to use VueX alongside webtokens to validate further against users, to ensure posts and comments cannot be liked by the poster, but as is, the application functions fully and correctly, loading posts and their respective comments on the webpage.*
+
+*These are features I will certainly add in the future when I have the time to revisit this project as a portfolio piece.*
 
 ---
 
