@@ -1,6 +1,6 @@
 *Andrew Walters - 2021*
 
-#Hello there!
+# Hello there!
 
 
 
@@ -37,6 +37,6 @@ The project also already holds some data volumes for the Mongo database within t
 
 ----------------------------------------------------------------
 
-###I hope you enjoy the application, and for anything further please get in touch with me at [andrew@hellowalters.com](mailto:andrew@hellowalters.com)!
+### I hope you enjoy the application, and for anything further please get in touch with me at [andrew@hellowalters.com](mailto:andrew@hellowalters.com)!
 
 *Regards!*
