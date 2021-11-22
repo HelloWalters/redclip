@@ -20,7 +20,7 @@ Using node package manager, intall the MEVN command line interface package tool,
 `npm install -g mevn-cli`
 
 
-navigate to the directory containing the project root
+navigate to the directory containing the project root using a bash commands and run the command
 
 `mevn dockerize`
 
